@@ -3,6 +3,10 @@ import Ta from "../src/images/programs_ta.png";
 import Chart from "../src/images/programs_chart.png";
 import Success from "../src/images/programs_success.png";
 import Mentoring from "../src/images/programs_mentoring.png";
+import August from "../src/images/aug1Profit.jpg"
+import November from "../src/images/nov1Profit.jpg"
+import October from "../src/images/oct1Profit.jpg"
+import September from "../src/images/sep1Profit.jpg"
 
 export const links = [
     {
@@ -59,5 +63,29 @@ export const benefits = [
         img: Mentoring
     }
     
+
+]
+
+export const performance = [
+    {
+        id: 1,
+        title: "AUGUST",
+        img: August
+    },
+    {
+        id: 2,
+        title: "SEPTEMBER",
+        img: September
+    },
+    {
+        id: 3,
+        title: "OCTOBER",
+        img: October
+    },
+    {
+        id: 4,
+        title: "NOVEMBER",
+        img: November
+    }
 
 ]

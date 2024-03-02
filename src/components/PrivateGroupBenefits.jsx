@@ -14,8 +14,9 @@ const PrivateGroupBenefits = () => {
                 benefits.map(({id, title, img}) => {
                     return (
                         <Card className="program_benefits" key={id}>
-                            <h4>{title}</h4>
                             <img src={img} alt={title} />
+                            <h4 className="benefit_title">{title}</h4>
+                            
                             
                         </Card>
                     )
@@ -28,3 +29,4 @@ const PrivateGroupBenefits = () => {
 }
 
 export default PrivateGroupBenefits
+

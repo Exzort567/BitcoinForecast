@@ -86,3 +86,34 @@
     gap: 3rem;
     margin-top: 4rem;
 }
+.benefit_title {
+    margin-top: 10px; /* Adjust the value as needed */
+}
+
+/* Trading Performance card */
+.performance{
+    margin-top: 4rem;
+}
+.performance_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+}
+  
+.performance_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+.performance_item_image {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+  
+.performance_item_title {
+    margin-top: 1rem; /* Adjust margin as needed */
+}
