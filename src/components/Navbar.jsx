@@ -13,20 +13,20 @@ const Navbar = () => {
     <nav>
         <div className="container nav_container">
             <Link to="/" className='logo'>
-                <img src={Logo} alt="BitcoinForecast Logo" className="logo-img" />
+                <img src={Logo} alt="BitcoinForecast Logo" className="logo-img" onClick={() => setIsNavShowing(false)} />
             </Link>
             <ul className={`nav_links ${isNavShowing ? 'show_nav' : 'hide_nav'}`}>
                 {
                     links.map(({name,path}, index) => {
                         return (
-                            <li>
-                                <NavLink to={path} className={({isActive}) => isActive  ? 'active-nav' : ''}>{name}</NavLink>
+                            <li key={index}>
+                                <NavLink to={path} className={({isActive}) => isActive  ? 'active-nav' : ''}  onClick={() => setIsNavShowing(prev => !prev )}>{name}</NavLink>
                             </li>
                         )
                     })
                 }
             </ul>
-            <button className="nav_toggle-btn" onClick={() => setIsNavShowing(!isNavShowing)}>
+            <button className="nav_toggle-btn" onClick={() => setIsNavShowing(prev => !prev )}>
                 {
                     isNavShowing ? <MdOutlineClose/>  : <FaBars />
                 }
