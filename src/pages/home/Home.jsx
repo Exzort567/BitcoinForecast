@@ -1,3 +1,4 @@
+import FAQs from '../../components/FAQs'
 import MainHeader from '../../components/MainHeader'
 import PrivateGroupBenefits from '../../components/PrivateGroupBenefits'
 import TradingPerformance from '../../components/TradingPerformance'
@@ -9,6 +10,7 @@ const Home = () => {
     <MainHeader/>
     <PrivateGroupBenefits/>
     <TradingPerformance/>
+    <FAQs/>
     </>
   )
 }

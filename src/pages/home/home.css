@@ -46,6 +46,9 @@
     position: relative;
 
 }
+iframe{
+    border: 0;
+}
 
 .main_header-circle{
    
@@ -116,4 +119,34 @@
   
 .performance_item_title {
     margin-top: 1rem; /* Adjust margin as needed */
+}
+
+/* FAQs */
+
+.faqs_wrapper{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 4rem;
+    align-items:flex-start;
+    
+}
+.faq{
+    background: var(--color-b-700);
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;   
+}
+.faq div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq_icon{
+    background: transparent;
+    font-size: 1.5rem;
+    color: var(--primary-hue);
+}
+.faq p{
+    margin-top: 1.2rem;
 }

@@ -20,9 +20,9 @@ const MainHeader = () => {
               width="100%"
               height="100%"
               src="https://www.youtube.com/embed/LvkyIfr1buU?autoplay=0&amp;mute=0&amp;controls=0&amp;origin=https%3A%2F%2Fbitcoinforecastt.systeme.io&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
-              frameborder="0"
+              
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen="">
+              allowFullScreen>
             </iframe>
           </div>
         </div>
