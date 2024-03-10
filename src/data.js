@@ -122,3 +122,48 @@ export const faqs = [
         answer: "Yes, Bitcoin Forecast is open to anyone interested in their trading signals and educational content. Traders can follow their YouTube channel or join their community to access their resources and signals."
     }
 ];
+
+export const testimonials = [
+    {
+        id:1,
+        name: "REYNIEL",
+        testimony: "Napaka helpful nung forecast coach kase apaka detailed like kada araw tapos yung time of the day na possible na mangyare, at yung sa for spot trade naman nagamit ko rin sya although nag eexpect ako ng pullback kay btc kaya lang di nangyare pero sa ibang alts ako nakahanap ng pullback kaya dun ako naka entry and now malaki laki na rin yung gains hahahaah 🔥 thank you coachh!",
+        membership: "PRIVATE GROUP MEMBER",
+        profile: require("./images/male.png")
+    },
+    {
+        id:2,
+        name: "RONJIE",
+        testimony: "Good morning coach! It has helped me to make good trading decisions on specific days and so far all the forecasts has been accurate!❤️",
+        membership: "PRIVATE GROUP MEMBER",
+        profile: require("./images/male.png")
+    },
+    {
+        id:3,
+        name: "GEMS HUNTER",
+        testimony: "It helps a lot into my trading decision as I can prepare ahead of time even not monitoring the market. Hope you’ll continue give us guidance by providing us daily forecast by sending it weekly. Salamat ❤️",
+        membership: "PRIVATE GROUP MEMBER",
+        profile: require("./images/male.png")
+    },
+    {
+        id:4,
+        name: "BURHAN",
+        testimony: "10/10 helpful",
+        membership: "PRIVATE GROUP MEMBER",
+        profile: require("./images/male.png")
+    },
+    {
+        id:5,
+        name: "JAY",
+        testimony: "hi sir good evening... appreciation message lang kase dahil sa forecast mo nababawi ko na losses ko dahil nakasabay po ako sa pump dahil naka position ako sa baba dahil sa prediction mo. nakita ko din po kase na nag out kana ng position kaya nag out nadin ako with small profit pero sobrang sarap sa feeling mag papasko akong hindi ipit... Hindi ito magiging possible if di ako nag join sa forecast mo... Di jase ako naniniwala sa mga ganto pero tinry ko lang mura naman. Ito pinaka wise ginawa ko this year... Salamat sir mag papasko akong masaya ilang months din kase ako naipit",
+        membership: "PRIVATE GROUP MEMBER",
+        profile: require("./images/male.png")
+    }
+    ,{
+        id:6,
+        name: "SOFIA",
+        testimony: "highly recommended",
+        membership: "PRIVATE GROUP MEMBER",
+        profile: require("./images/female.png")
+    }
+];
