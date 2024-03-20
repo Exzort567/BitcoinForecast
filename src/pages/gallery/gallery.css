@@ -1,0 +1,24 @@
+.gallery_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    
+}
+.gallery_container img {
+    border-radius: 18%;
+}
+
+
+/* medium screen */
+@media screen and (max-width: 1024px) {
+    .gallery_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* small screen */
+@media screen and (max-width: 600px) {
+    .gallery_container {
+        grid-template-columns: 1fr;
+    }
+}

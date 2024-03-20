@@ -9,13 +9,13 @@
 }
 
 :root {
-    --primary-hue: #a500ff;
+    --primary-hue: #4c0273;
     --gray-hue: 240;
     --color-primary: var(--primary-hue);
-    --color-b-700: #6e0e914f;
-    --color-c-500: #3f0354;
+    --color-b-700: #d259fe;
+    --color-c-500: #3a034f;
     --color-v-600: #290536;
-    --color-t-100: #9013FE;
+    --color-t-100: #ffffff;
     --color-t-50: #e7e7e7;
     --color-t-f: #00BF63;
     
@@ -27,7 +27,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    color: var(--primary-hue);
+    color: var(--color-t-100);
     line-height: 1.7;
     overflow-x: hidden;
     background: var(--color-v-600) ;
@@ -104,7 +104,7 @@ section {
     
 }
 .section_head span {
-    background: var(--color-c-500);
+    background: var(--color-t-100);
     padding: 0.8rem;
     border-radius: 1rem;
     color: var(--color-t-f);

@@ -133,7 +133,7 @@ iframe{
     
 }
 .faq{
-    background: var(--color-b-700);
+    background: var(--primary-hue);
     padding: 2rem;
     border-radius: 1rem;
     cursor: pointer;   
@@ -148,7 +148,7 @@ iframe{
 .faq_icon{
     background: transparent;
     font-size: 1.5rem;
-    color: var(--primary-hue);
+    color: var(--color-t-100);
 }
 .faq p{
     margin-top: 1.2rem;

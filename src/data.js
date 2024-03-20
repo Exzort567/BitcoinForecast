@@ -167,3 +167,42 @@ export const testimonials = [
         profile: require("./images/female.png")
     }
 ];
+
+export const plans = [
+    {
+        id: 1,
+        name: 'BASIC PLAN',
+        desc: '1week access',
+        price: '399 PHP',
+        features: [
+            {feature: '1week access'},
+            {feature: '1week prediction'},
+            {feature: '1week private group access'}
+        ]
+    },
+    {
+        id: 2,
+        name: 'SILVER PLAN',
+        desc: '1month access',
+        price: '800 PHP',
+        features: [
+            {feature: '1month private group access'},
+            {feature: 'Weekly prediction for 1 month'},
+            {feature: 'Weekly trading recap for 1 month'},
+            {feature: 'Educational contents'}
+        ]
+    },
+    {
+        id: 3,
+        name: 'PREMIUM PLAN',
+        desc: '1year all access',
+        price: '3500 PHP',
+        features: [
+            {feature: '1year private group access'},
+            {feature: '1year Weekly prediction'},
+            {feature: 'Weekly trading recap/technical analysis(LIVE)'},
+            {feature: 'Educational contents'},
+            {feature: 'Monthly mentoring access'}
+        ]
+    }
+]
