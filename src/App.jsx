@@ -7,6 +7,7 @@ import Gallery from './pages/gallery/Gallery'
 import NotFound from './pages/notFound/NotFound'
 import Plans from './pages/plans/Plans'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='plans' element={<Plans/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
