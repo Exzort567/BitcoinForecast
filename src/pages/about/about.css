@@ -35,3 +35,33 @@
     align-items: center;
     justify-content: center;
 }
+/* medium screen */
+@media screen and (max-width: 1024px) {
+    .about_section-img {
+        width: 60%;
+    }
+    .about_section-content h1 {
+        margin-bottom: 1.2rem;
+    }
+    .about_approach-container, .about_education-container, .about_engagement-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .about_engagement .about_section-img {
+        grid-row: 1;
+
+    }
+    
+}
+/* smallscreen */
+
+@media screen and (max-width: 600px) {
+    .about_section-img {
+        width: 80%;
+        margin-inline: auto;
+    }
+    .about_approach-container, .about_education-container, .about_engagement-container { 
+        gap: 2rem;
+    }
+}
+
